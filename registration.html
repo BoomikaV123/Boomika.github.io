@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration</title>
+</head>
+<body bgcolor="grey">
+    <h1>Registration Form</h1><br><br>
+    <form action="">
+        <fieldset>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required placeholder="Ex. Anu"><br><br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required placeholder="Ex. N"><br><br>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required placeholder="Ex. 20"><br><br>
+            <label for="dob">DOB</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            <label for="">YOG</label>
+            <input list="yog" id="yop" name="yop">
+            <datalist id="yog">
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+
+            </datalist><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" required>
+        </fieldset>
+        <input type = "Submit">
+    </form>
+</body>
